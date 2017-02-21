@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_contact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thernsgroup.addressbook.NewContact">
+
+    <TableRow>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:hint="Name" />
+
+    </TableRow>
+    <TableRow>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_span="1"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:hint="Mobile"
+            android:layout_width="match_parent" />
+    </TableRow>
+    <TableRow>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:hint="E-Mail" />
+
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:text="@string/submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/button" />
+
+        <Button
+            android:text="@string/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/button2" />
+
+    </TableRow>
+</TableLayout>
